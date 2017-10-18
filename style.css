@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
+.header {
+  background: url(Logo.png) no-repeat center center; 
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+  
+}
+
+.text h1 {
+	text-align: center;
+	position: relative;
+	margin-top: 70px;
+	opacity: 0.50;
+	font-size: 65px
+}
+
+.middle {
+	background: url(Back-2.jpg) no-repeat center center;
+	background-size: cover;
+	height: 800px;
+}
+
+.footer { 
+  background: #000;
+  height: 80px; 
+  padding-bottom: 50px;
+	padding-right: 200px;
+}
+
+.footer p { 
+  color: #fff;
+  font-size: 25px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
